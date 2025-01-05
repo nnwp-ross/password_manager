@@ -36,7 +36,7 @@ def setup():
     #creates key and iv
     encryption.create_key(key_file)
     encryption.create_iv(iv_file)
-    #encrypts key and iv
+    #reads key and iv
     key = encryption.read_file(key_file)
     iv = encryption.read_file(iv_file)
     #encrypts tsv
